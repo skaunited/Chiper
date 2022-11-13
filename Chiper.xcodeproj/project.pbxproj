@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		0147780A29213C1D00F2ED80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147780929213C1D00F2ED80 /* AppDelegate.swift */; };
 		0147780C29213C1D00F2ED80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147780B29213C1D00F2ED80 /* SceneDelegate.swift */; };
-		0147780E29213C1D00F2ED80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147780D29213C1D00F2ED80 /* ViewController.swift */; };
-		0147781129213C1D00F2ED80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0147780F29213C1D00F2ED80 /* Main.storyboard */; };
+		0147780E29213C1D00F2ED80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147780D29213C1D00F2ED80 /* HomeViewController.swift */; };
 		0147781329213C2000F2ED80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0147781229213C2000F2ED80 /* Assets.xcassets */; };
 		0147781629213C2000F2ED80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0147781429213C2000F2ED80 /* LaunchScreen.storyboard */; };
 		0147782129213C2100F2ED80 /* ChiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147782029213C2100F2ED80 /* ChiperTests.swift */; };
 		0147782B29213C2100F2ED80 /* ChiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147782A29213C2100F2ED80 /* ChiperUITests.swift */; };
 		0147782D29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147782C29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift */; };
+		01DBDE19292140F400552263 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE18292140F400552263 /* Coordinator.swift */; };
+		01DBDE202921428E00552263 /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE1F2921428E00552263 /* AppBuilder.swift */; };
+		01DBDE222921434100552263 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE212921434100552263 /* HomePresenter.swift */; };
+		01DBDE242921435400552263 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE232921435400552263 /* HomeProtocol.swift */; };
+		01DBDE7829214D2300552263 /* ChiperModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE7729214D2300552263 /* ChiperModuleRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,7 @@
 		0147780629213C1D00F2ED80 /* Chiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0147780929213C1D00F2ED80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0147780B29213C1D00F2ED80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0147780D29213C1D00F2ED80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0147781029213C1D00F2ED80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0147780D29213C1D00F2ED80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0147781229213C2000F2ED80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0147781529213C2000F2ED80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0147781729213C2000F2ED80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		0147782629213C2100F2ED80 /* ChiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0147782A29213C2100F2ED80 /* ChiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiperUITests.swift; sourceTree = "<group>"; };
 		0147782C29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01DBDE18292140F400552263 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		01DBDE1F2921428E00552263 /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
+		01DBDE212921434100552263 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		01DBDE232921435400552263 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		01DBDE7729214D2300552263 /* ChiperModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiperModuleRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,10 @@
 		0147780829213C1D00F2ED80 /* Chiper */ = {
 			isa = PBXGroup;
 			children = (
-				0147780929213C1D00F2ED80 /* AppDelegate.swift */,
-				0147780B29213C1D00F2ED80 /* SceneDelegate.swift */,
-				0147780D29213C1D00F2ED80 /* ViewController.swift */,
-				0147780F29213C1D00F2ED80 /* Main.storyboard */,
 				0147781229213C2000F2ED80 /* Assets.xcassets */,
-				0147781429213C2000F2ED80 /* LaunchScreen.storyboard */,
-				0147781729213C2000F2ED80 /* Info.plist */,
+				01DBDE7A292181E700552263 /* Application */,
+				01DBDE7B2921822D00552263 /* Configuration */,
+				01DBDE1A2921422000552263 /* InsideAPP */,
 			);
 			path = Chiper;
 			sourceTree = "<group>";
@@ -125,6 +130,77 @@
 				0147782C29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift */,
 			);
 			path = ChiperUITests;
+			sourceTree = "<group>";
+		};
+		01DBDE17292140D500552263 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				01DBDE18292140F400552263 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		01DBDE1A2921422000552263 /* InsideAPP */ = {
+			isa = PBXGroup;
+			children = (
+				01DBDE1B2921422800552263 /* Home */,
+				01DBDE792921816000552263 /* Manager */,
+				01DBDE7629214CF800552263 /* Router */,
+			);
+			path = InsideAPP;
+			sourceTree = "<group>";
+		};
+		01DBDE1B2921422800552263 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0147780D29213C1D00F2ED80 /* HomeViewController.swift */,
+				01DBDE212921434100552263 /* HomePresenter.swift */,
+				01DBDE232921435400552263 /* HomeProtocol.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		01DBDE1E2921428100552263 /* Standalone */ = {
+			isa = PBXGroup;
+			children = (
+				01DBDE1F2921428E00552263 /* AppBuilder.swift */,
+			);
+			path = Standalone;
+			sourceTree = "<group>";
+		};
+		01DBDE7629214CF800552263 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				01DBDE7729214D2300552263 /* ChiperModuleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		01DBDE792921816000552263 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		01DBDE7A292181E700552263 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0147781429213C2000F2ED80 /* LaunchScreen.storyboard */,
+				0147780929213C1D00F2ED80 /* AppDelegate.swift */,
+				0147780B29213C1D00F2ED80 /* SceneDelegate.swift */,
+				01DBDE17292140D500552263 /* Coordinator */,
+				01DBDE1E2921428100552263 /* Standalone */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		01DBDE7B2921822D00552263 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0147781729213C2000F2ED80 /* Info.plist */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +309,6 @@
 			files = (
 				0147781629213C2000F2ED80 /* LaunchScreen.storyboard in Resources */,
 				0147781329213C2000F2ED80 /* Assets.xcassets in Resources */,
-				0147781129213C1D00F2ED80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +333,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0147780E29213C1D00F2ED80 /* ViewController.swift in Sources */,
+				01DBDE242921435400552263 /* HomeProtocol.swift in Sources */,
+				01DBDE19292140F400552263 /* Coordinator.swift in Sources */,
+				0147780E29213C1D00F2ED80 /* HomeViewController.swift in Sources */,
 				0147780A29213C1D00F2ED80 /* AppDelegate.swift in Sources */,
+				01DBDE202921428E00552263 /* AppBuilder.swift in Sources */,
+				01DBDE7829214D2300552263 /* ChiperModuleRouter.swift in Sources */,
+				01DBDE222921434100552263 /* HomePresenter.swift in Sources */,
 				0147780C29213C1D00F2ED80 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0147780F29213C1D00F2ED80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0147781029213C1D00F2ED80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0147781429213C2000F2ED80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,10 +511,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6HLHYZ382H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Chiper/Info.plist;
+				INFOPLIST_FILE = Chiper/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,10 +538,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6HLHYZ382H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Chiper/Info.plist;
+				INFOPLIST_FILE = Chiper/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
