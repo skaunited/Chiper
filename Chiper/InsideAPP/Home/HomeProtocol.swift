@@ -8,9 +8,9 @@
 import Foundation
 
 protocol HomeViewProtocol {
-    
+    func reloadData()
 }
 
-protocol HomePresenterProtocol {
-    
+protocol HomePresenterProtocol: TableViewPresenter {
+    func willShow(cell: ItemTableViewCellProtocol, indexPath: IndexPath)
 }
