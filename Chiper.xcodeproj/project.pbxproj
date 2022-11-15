@@ -15,6 +15,22 @@
 		0147782129213C2100F2ED80 /* ChiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147782029213C2100F2ED80 /* ChiperTests.swift */; };
 		0147782B29213C2100F2ED80 /* ChiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147782A29213C2100F2ED80 /* ChiperUITests.swift */; };
 		0147782D29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147782C29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift */; };
+		01B2CFEE2922BE3300F5F9A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFED2922BE3300F5F9A9 /* Constants.swift */; };
+		01B2CFF12922C30100F5F9A9 /* UIViewsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFF02922C30100F5F9A9 /* UIViewsExtension.swift */; };
+		01B2CFF32922C3EA00F5F9A9 /* UIColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFF22922C3EA00F5F9A9 /* UIColorsExtension.swift */; };
+		01B2CFF72922F69000F5F9A9 /* HomeViewController+UINavigationBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFF62922F69000F5F9A9 /* HomeViewController+UINavigationBarDelegate.swift */; };
+		01B2CFF92922F70A00F5F9A9 /* HomeViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFF82922F70A00F5F9A9 /* HomeViewController+UITableViewDelegate.swift */; };
+		01B2CFFB2922F74C00F5F9A9 /* HomeViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFFA2922F74C00F5F9A9 /* HomeViewController+UITableViewDataSource.swift */; };
+		01B2CFFD2922F7D500F5F9A9 /* HomeViewController+HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CFFC2922F7D500F5F9A9 /* HomeViewController+HomeViewProtocol.swift */; };
+		01B2D0012922FB1200F5F9A9 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0002922FB1200F5F9A9 /* ItemTableViewCell.swift */; };
+		01B2D0032923530C00F5F9A9 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0022923530C00F5F9A9 /* Drawing.swift */; };
+		01B2D0052923546800F5F9A9 /* OptionalsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0042923546800F5F9A9 /* OptionalsExtension.swift */; };
+		01B2D009292358FC00F5F9A9 /* ThemedNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D008292358FC00F5F9A9 /* ThemedNavigationBar.swift */; };
+		01B2D00B29235EA100F5F9A9 /* ThemedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D00A29235EA100F5F9A9 /* ThemedTableView.swift */; };
+		01B2D00D2923626B00F5F9A9 /* ThemedUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D00C2923626B00F5F9A9 /* ThemedUILabel.swift */; };
+		01B2D01129236AF900F5F9A9 /* ThemedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D01029236AF900F5F9A9 /* ThemedUIImageView.swift */; };
+		01B2D0142924266D00F5F9A9 /* SharedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0132924266D00F5F9A9 /* SharedProtocols.swift */; };
+		01B2D0162924279C00F5F9A9 /* ArraysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0152924279C00F5F9A9 /* ArraysExtension.swift */; };
 		01DBDE19292140F400552263 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE18292140F400552263 /* Coordinator.swift */; };
 		01DBDE202921428E00552263 /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE1F2921428E00552263 /* AppBuilder.swift */; };
 		01DBDE222921434100552263 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE212921434100552263 /* HomePresenter.swift */; };
@@ -52,6 +68,22 @@
 		0147782629213C2100F2ED80 /* ChiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0147782A29213C2100F2ED80 /* ChiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiperUITests.swift; sourceTree = "<group>"; };
 		0147782C29213C2100F2ED80 /* ChiperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01B2CFED2922BE3300F5F9A9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		01B2CFF02922C30100F5F9A9 /* UIViewsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewsExtension.swift; sourceTree = "<group>"; };
+		01B2CFF22922C3EA00F5F9A9 /* UIColorsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorsExtension.swift; sourceTree = "<group>"; };
+		01B2CFF62922F69000F5F9A9 /* HomeViewController+UINavigationBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UINavigationBarDelegate.swift"; sourceTree = "<group>"; };
+		01B2CFF82922F70A00F5F9A9 /* HomeViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		01B2CFFA2922F74C00F5F9A9 /* HomeViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		01B2CFFC2922F7D500F5F9A9 /* HomeViewController+HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+HomeViewProtocol.swift"; sourceTree = "<group>"; };
+		01B2D0002922FB1200F5F9A9 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		01B2D0022923530C00F5F9A9 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		01B2D0042923546800F5F9A9 /* OptionalsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalsExtension.swift; sourceTree = "<group>"; };
+		01B2D008292358FC00F5F9A9 /* ThemedNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedNavigationBar.swift; sourceTree = "<group>"; };
+		01B2D00A29235EA100F5F9A9 /* ThemedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedTableView.swift; sourceTree = "<group>"; };
+		01B2D00C2923626B00F5F9A9 /* ThemedUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedUILabel.swift; sourceTree = "<group>"; };
+		01B2D01029236AF900F5F9A9 /* ThemedUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedUIImageView.swift; sourceTree = "<group>"; };
+		01B2D0132924266D00F5F9A9 /* SharedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProtocols.swift; sourceTree = "<group>"; };
+		01B2D0152924279C00F5F9A9 /* ArraysExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysExtension.swift; sourceTree = "<group>"; };
 		01DBDE18292140F400552263 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		01DBDE1F2921428E00552263 /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		01DBDE212921434100552263 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -132,6 +164,63 @@
 			path = ChiperUITests;
 			sourceTree = "<group>";
 		};
+		01B2CFEC2922BE2200F5F9A9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				01B2CFED2922BE3300F5F9A9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		01B2CFEF2922C2D300F5F9A9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D0122924265C00F5F9A9 /* Shared */,
+				01B2D007292358B300F5F9A9 /* Extensions */,
+				01B2D006292358AB00F5F9A9 /* Graphic */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		01B2CFFF2922FAFB00F5F9A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D0002922FB1200F5F9A9 /* ItemTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01B2D006292358AB00F5F9A9 /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D0022923530C00F5F9A9 /* Drawing.swift */,
+				01B2D008292358FC00F5F9A9 /* ThemedNavigationBar.swift */,
+				01B2D00A29235EA100F5F9A9 /* ThemedTableView.swift */,
+				01B2D00C2923626B00F5F9A9 /* ThemedUILabel.swift */,
+				01B2D01029236AF900F5F9A9 /* ThemedUIImageView.swift */,
+			);
+			path = Graphic;
+			sourceTree = "<group>";
+		};
+		01B2D007292358B300F5F9A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01B2CFF02922C30100F5F9A9 /* UIViewsExtension.swift */,
+				01B2CFF22922C3EA00F5F9A9 /* UIColorsExtension.swift */,
+				01B2D0042923546800F5F9A9 /* OptionalsExtension.swift */,
+				01B2D0152924279C00F5F9A9 /* ArraysExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		01B2D0122924265C00F5F9A9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D0132924266D00F5F9A9 /* SharedProtocols.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		01DBDE17292140D500552263 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +243,10 @@
 			isa = PBXGroup;
 			children = (
 				0147780D29213C1D00F2ED80 /* HomeViewController.swift */,
+				01B2CFFC2922F7D500F5F9A9 /* HomeViewController+HomeViewProtocol.swift */,
+				01B2CFF62922F69000F5F9A9 /* HomeViewController+UINavigationBarDelegate.swift */,
+				01B2CFF82922F70A00F5F9A9 /* HomeViewController+UITableViewDelegate.swift */,
+				01B2CFFA2922F74C00F5F9A9 /* HomeViewController+UITableViewDataSource.swift */,
 				01DBDE212921434100552263 /* HomePresenter.swift */,
 				01DBDE232921435400552263 /* HomeProtocol.swift */,
 			);
@@ -186,11 +279,14 @@
 		01DBDE7A292181E700552263 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				01B2CFFF2922FAFB00F5F9A9 /* Views */,
+				01B2CFEF2922C2D300F5F9A9 /* Utilities */,
 				0147781429213C2000F2ED80 /* LaunchScreen.storyboard */,
 				0147780929213C1D00F2ED80 /* AppDelegate.swift */,
 				0147780B29213C1D00F2ED80 /* SceneDelegate.swift */,
 				01DBDE17292140D500552263 /* Coordinator */,
 				01DBDE1E2921428100552263 /* Standalone */,
+				01B2CFEC2922BE2200F5F9A9 /* Constants */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -334,13 +430,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DBDE242921435400552263 /* HomeProtocol.swift in Sources */,
+				01B2CFF32922C3EA00F5F9A9 /* UIColorsExtension.swift in Sources */,
 				01DBDE19292140F400552263 /* Coordinator.swift in Sources */,
 				0147780E29213C1D00F2ED80 /* HomeViewController.swift in Sources */,
+				01B2CFF92922F70A00F5F9A9 /* HomeViewController+UITableViewDelegate.swift in Sources */,
+				01B2D0052923546800F5F9A9 /* OptionalsExtension.swift in Sources */,
+				01B2D0142924266D00F5F9A9 /* SharedProtocols.swift in Sources */,
+				01B2D0162924279C00F5F9A9 /* ArraysExtension.swift in Sources */,
+				01B2D01129236AF900F5F9A9 /* ThemedUIImageView.swift in Sources */,
 				0147780A29213C1D00F2ED80 /* AppDelegate.swift in Sources */,
+				01B2CFFB2922F74C00F5F9A9 /* HomeViewController+UITableViewDataSource.swift in Sources */,
 				01DBDE202921428E00552263 /* AppBuilder.swift in Sources */,
 				01DBDE7829214D2300552263 /* ChiperModuleRouter.swift in Sources */,
+				01B2D00D2923626B00F5F9A9 /* ThemedUILabel.swift in Sources */,
+				01B2CFF72922F69000F5F9A9 /* HomeViewController+UINavigationBarDelegate.swift in Sources */,
 				01DBDE222921434100552263 /* HomePresenter.swift in Sources */,
 				0147780C29213C1D00F2ED80 /* SceneDelegate.swift in Sources */,
+				01B2CFFD2922F7D500F5F9A9 /* HomeViewController+HomeViewProtocol.swift in Sources */,
+				01B2D009292358FC00F5F9A9 /* ThemedNavigationBar.swift in Sources */,
+				01B2D0032923530C00F5F9A9 /* Drawing.swift in Sources */,
+				01B2CFF12922C30100F5F9A9 /* UIViewsExtension.swift in Sources */,
+				01B2D0012922FB1200F5F9A9 /* ItemTableViewCell.swift in Sources */,
+				01B2D00B29235EA100F5F9A9 /* ThemedTableView.swift in Sources */,
+				01B2CFEE2922BE3300F5F9A9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
