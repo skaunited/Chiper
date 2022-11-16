@@ -71,3 +71,11 @@ public extension Optional where Wrapped == UILabel {
     var orDefault: UILabel { self ?? UILabel() }
 }
 
+/**
+ Extension of optional, gonna working if the the typeof( ) of the value == Int
+ - returns: Self, if the value, not nil & 0 if the value is nil
+ */
+public extension Optional where Wrapped == Int {
+    var orDefault: Int { self ?? 0 }
+}
+
