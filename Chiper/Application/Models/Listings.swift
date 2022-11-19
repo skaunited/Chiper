@@ -41,14 +41,10 @@ struct Listing: Decodable, Equatable {
 
 extension Listing {
     func asEntity(categories: [Category]) -> ListingEntity {
-        var url: URL?
-        if let imageString = image?.small {
-            url = URL(string: imageString)
-        }
         let categorie = categories.first(where: { $0.id == categoryId ?? 0})
         
-        return ListingEntity(image: url,
-                             name: title,
+        return ListingEntity(image: image?.small,
+                             title: title,
                              date: date,
                              description: description,
                              price: price,

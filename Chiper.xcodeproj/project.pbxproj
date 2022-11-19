@@ -31,7 +31,6 @@
 		01B2D01129236AF900F5F9A9 /* ThemedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D01029236AF900F5F9A9 /* ThemedUIImageView.swift */; };
 		01B2D0142924266D00F5F9A9 /* SharedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0132924266D00F5F9A9 /* SharedProtocols.swift */; };
 		01B2D0162924279C00F5F9A9 /* ArraysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D0152924279C00F5F9A9 /* ArraysExtension.swift */; };
-		01B2D01A29257CC800F5F9A9 /* CategoriesIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D01929257CC800F5F9A9 /* CategoriesIdentifier.swift */; };
 		01B2D01D29257F1600F5F9A9 /* WebServiceProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D01C29257F1600F5F9A9 /* WebServiceProviderManager.swift */; };
 		01B2D01F292580B200F5F9A9 /* WebServiceProviderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D01E292580B200F5F9A9 /* WebServiceProviderRouter.swift */; };
 		01B2D021292584BD00F5F9A9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D020292584BD00F5F9A9 /* Network.swift */; };
@@ -41,6 +40,9 @@
 		01B2D02A292598E000F5F9A9 /* ListingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D029292598E000F5F9A9 /* ListingEntity.swift */; };
 		01B2D02D29259AE200F5F9A9 /* HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D02C29259AE200F5F9A9 /* HomeManager.swift */; };
 		01B2D03129259D7A00F5F9A9 /* GenericListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2D03029259D7A00F5F9A9 /* GenericListResponse.swift */; };
+		01CE1D6E29296CC900C5FB1D /* UIIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE1D6D29296CC900C5FB1D /* UIIImageViewExtension.swift */; };
+		01CE1D702929766D00C5FB1D /* ThemedActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE1D6F2929766D00C5FB1D /* ThemedActivityIndicatorView.swift */; };
+		01CE1D72292984A200C5FB1D /* UIAlertActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE1D71292984A200C5FB1D /* UIAlertActionExtension.swift */; };
 		01DBDE19292140F400552263 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE18292140F400552263 /* Coordinator.swift */; };
 		01DBDE202921428E00552263 /* AppBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE1F2921428E00552263 /* AppBuilder.swift */; };
 		01DBDE222921434100552263 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBDE212921434100552263 /* HomePresenter.swift */; };
@@ -94,7 +96,6 @@
 		01B2D01029236AF900F5F9A9 /* ThemedUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedUIImageView.swift; sourceTree = "<group>"; };
 		01B2D0132924266D00F5F9A9 /* SharedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProtocols.swift; sourceTree = "<group>"; };
 		01B2D0152924279C00F5F9A9 /* ArraysExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysExtension.swift; sourceTree = "<group>"; };
-		01B2D01929257CC800F5F9A9 /* CategoriesIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesIdentifier.swift; sourceTree = "<group>"; };
 		01B2D01C29257F1600F5F9A9 /* WebServiceProviderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceProviderManager.swift; sourceTree = "<group>"; };
 		01B2D01E292580B200F5F9A9 /* WebServiceProviderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceProviderRouter.swift; sourceTree = "<group>"; };
 		01B2D020292584BD00F5F9A9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
@@ -104,6 +105,9 @@
 		01B2D029292598E000F5F9A9 /* ListingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingEntity.swift; sourceTree = "<group>"; };
 		01B2D02C29259AE200F5F9A9 /* HomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManager.swift; sourceTree = "<group>"; };
 		01B2D03029259D7A00F5F9A9 /* GenericListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListResponse.swift; sourceTree = "<group>"; };
+		01CE1D6D29296CC900C5FB1D /* UIIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIImageViewExtension.swift; sourceTree = "<group>"; };
+		01CE1D6F2929766D00C5FB1D /* ThemedActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedActivityIndicatorView.swift; sourceTree = "<group>"; };
+		01CE1D71292984A200C5FB1D /* UIAlertActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertActionExtension.swift; sourceTree = "<group>"; };
 		01DBDE18292140F400552263 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		01DBDE1F2921428E00552263 /* AppBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuilder.swift; sourceTree = "<group>"; };
 		01DBDE212921434100552263 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 		01B2CFEF2922C2D300F5F9A9 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				01B2D03029259D7A00F5F9A9 /* GenericListResponse.swift */,
 				01B2D0122924265C00F5F9A9 /* Shared */,
 				01B2D007292358B300F5F9A9 /* Extensions */,
 				01B2D006292358AB00F5F9A9 /* Graphic */,
@@ -218,6 +223,7 @@
 				01B2D00A29235EA100F5F9A9 /* ThemedTableView.swift */,
 				01B2D00C2923626B00F5F9A9 /* ThemedUILabel.swift */,
 				01B2D01029236AF900F5F9A9 /* ThemedUIImageView.swift */,
+				01CE1D6F2929766D00C5FB1D /* ThemedActivityIndicatorView.swift */,
 			);
 			path = Graphic;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 				01B2CFF22922C3EA00F5F9A9 /* UIColorsExtension.swift */,
 				01B2D0042923546800F5F9A9 /* OptionalsExtension.swift */,
 				01B2D0152924279C00F5F9A9 /* ArraysExtension.swift */,
+				01CE1D6D29296CC900C5FB1D /* UIIImageViewExtension.swift */,
+				01CE1D71292984A200C5FB1D /* UIAlertActionExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -241,21 +249,12 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		01B2D01829257C0C00F5F9A9 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				01B2D01929257CC800F5F9A9 /* CategoriesIdentifier.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
 		01B2D01B29257EFF00F5F9A9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				01B2D01E292580B200F5F9A9 /* WebServiceProviderRouter.swift */,
 				01B2D01C29257F1600F5F9A9 /* WebServiceProviderManager.swift */,
 				01B2D020292584BD00F5F9A9 /* Network.swift */,
-				01B2D03029259D7A00F5F9A9 /* GenericListResponse.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -292,7 +291,6 @@
 		01DBDE1B2921422800552263 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				01B2D01829257C0C00F5F9A9 /* Enums */,
 				0147780D29213C1D00F2ED80 /* HomeViewController.swift */,
 				01B2CFFC2922F7D500F5F9A9 /* HomeViewController+HomeViewProtocol.swift */,
 				01B2CFF62922F69000F5F9A9 /* HomeViewController+UINavigationBarDelegate.swift */,
@@ -487,7 +485,6 @@
 				01B2CFF32922C3EA00F5F9A9 /* UIColorsExtension.swift in Sources */,
 				01B2D0282925977A00F5F9A9 /* Image.swift in Sources */,
 				01DBDE19292140F400552263 /* Coordinator.swift in Sources */,
-				01B2D01A29257CC800F5F9A9 /* CategoriesIdentifier.swift in Sources */,
 				01B2D02A292598E000F5F9A9 /* ListingEntity.swift in Sources */,
 				0147780E29213C1D00F2ED80 /* HomeViewController.swift in Sources */,
 				01B2CFF92922F70A00F5F9A9 /* HomeViewController+UITableViewDelegate.swift in Sources */,
@@ -497,8 +494,10 @@
 				01B2D0162924279C00F5F9A9 /* ArraysExtension.swift in Sources */,
 				01B2D01129236AF900F5F9A9 /* ThemedUIImageView.swift in Sources */,
 				01B2D024292596C400F5F9A9 /* Category.swift in Sources */,
+				01CE1D6E29296CC900C5FB1D /* UIIImageViewExtension.swift in Sources */,
 				0147780A29213C1D00F2ED80 /* AppDelegate.swift in Sources */,
 				01B2CFFB2922F74C00F5F9A9 /* HomeViewController+UITableViewDataSource.swift in Sources */,
+				01CE1D72292984A200C5FB1D /* UIAlertActionExtension.swift in Sources */,
 				01DBDE202921428E00552263 /* AppBuilder.swift in Sources */,
 				01DBDE7829214D2300552263 /* ChiperModuleRouter.swift in Sources */,
 				01B2D0262925974D00F5F9A9 /* Listings.swift in Sources */,
@@ -514,6 +513,7 @@
 				01B2D0032923530C00F5F9A9 /* Drawing.swift in Sources */,
 				01B2CFF12922C30100F5F9A9 /* UIViewsExtension.swift in Sources */,
 				01B2D0012922FB1200F5F9A9 /* ItemTableViewCell.swift in Sources */,
+				01CE1D702929766D00C5FB1D /* ThemedActivityIndicatorView.swift in Sources */,
 				01B2D00B29235EA100F5F9A9 /* ThemedTableView.swift in Sources */,
 				01B2D021292584BD00F5F9A9 /* Network.swift in Sources */,
 				01B2CFEE2922BE3300F5F9A9 /* Constants.swift in Sources */,

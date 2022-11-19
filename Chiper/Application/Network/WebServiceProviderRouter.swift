@@ -19,9 +19,9 @@ public enum WebServiceProviderRouter {
     public var url: URL {
         switch self {
         case .getListing:
-            return URL(fileURLWithPath: Constants.BASE_URL + "listing.json")
+            return URL(string: Constants.BASE_URL + "listing.json").orDefault
         case .categories:
-            return URL(fileURLWithPath: Constants.BASE_URL + "categories.json")
+            return URL(string: Constants.BASE_URL + "categories.json").orDefault
         }
     }
 }

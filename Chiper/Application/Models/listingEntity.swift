@@ -10,8 +10,8 @@ import Foundation
 typealias ListingEntities = [ListingEntity]
 
 struct ListingEntity {
-    let image: URL?
-    let name: String?
+    let image: String?
+    let title: String?
     let date: String?
     let description: String?
     let price: Int?

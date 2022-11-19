@@ -13,4 +13,6 @@ protocol HomeViewProtocol {
 
 protocol HomePresenterProtocol: TableViewPresenter {
     func willShow(cell: ItemTableViewCellProtocol, indexPath: IndexPath)
+    func getCategories() -> [Category]
+    func setFilter(by category: Category?)
 }
