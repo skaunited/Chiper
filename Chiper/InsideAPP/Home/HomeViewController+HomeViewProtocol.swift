@@ -10,5 +10,6 @@ import Foundation
 extension HomeViewController: HomeViewProtocol {
     func reloadData() {
         tableView?.reloadData()
+        activityIndicator?.stopAnimating()
     }
 }

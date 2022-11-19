@@ -9,7 +9,7 @@ import Foundation
 
 class AppBuiler{
     class func build(for homeView: HomeViewController) -> HomeViewController {
-        homeView.presenter = HomePresenter(view: homeView)
+        homeView.presenter = HomePresenter(view: homeView, manager: HomeManager.shared)
         return homeView
     }
 }

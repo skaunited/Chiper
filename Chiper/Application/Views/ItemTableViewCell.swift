@@ -16,7 +16,7 @@ struct ItemTableViewCellModel {
     var description: String
     var price: String
     var categoryLabel: String
-    var itemImage: UIImage
+    var imageUrl: String
     var creationDate: Date
     var isUrgent: Bool
     
@@ -24,14 +24,14 @@ struct ItemTableViewCellModel {
          description: String,
          price: String,
          categoryLabel: String,
-         itemImage: UIImage,
+         imageUrl: String,
          creationDate: Date,
          isUrgent: Bool) {
         self.titleLabel = titleLabel
         self.description = description
         self.price = price
         self.categoryLabel = categoryLabel
-        self.itemImage = itemImage
+        self.imageUrl = imageUrl
         self.creationDate = creationDate
         self.isUrgent = isUrgent
     }
@@ -58,6 +58,9 @@ class ItemTableViewCell: UITableViewCell, ItemTableViewCellProtocol {
         urgentLabel?.text = Constants.urgently
         urgentLabel?.isHidden = !model.isUrgent
         descriptionLabel?.text = model.description
+        if let url = URL(string: model.imageUrl) {
+            itemImage?.load(url: url)
+        }
     }
     
     // MARK: - REQUIRED INIT
@@ -94,6 +97,8 @@ class ItemTableViewCell: UITableViewCell, ItemTableViewCellProtocol {
             NSLayoutConstraint(item: categoryLabel.orDefault, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 2, constant: 64),
             NSLayoutConstraint(item: categoryLabel.orDefault, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 16)
         ])
+        
+        descriptionLabel?.addConstraint(NSLayoutConstraint(item: descriptionLabel.orDefault, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 64))
 
         
         let hzStackView = UIStackView(arrangedSubviews: [titleLabel.orDefault,
