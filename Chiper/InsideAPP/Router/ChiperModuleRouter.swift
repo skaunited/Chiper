@@ -8,8 +8,6 @@
 import Foundation
 
 class ChiperModuleRouter {
-    //private var manager: ChiperModuleManagerProtocol?
-    
     public init() { }
 }
 

@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     func load(url: URL) {
         DispatchQueue.global(qos: .background).async {
             if let data = try? Data(contentsOf: url) {

@@ -8,7 +8,7 @@
 import UIKit
 
 public protocol CoordinatorProtocol : AnyObject {
-    init(navigationController:UINavigationController)
+    init(navigationController: UINavigationController)
     func start()
 }
 
