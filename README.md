@@ -9,26 +9,26 @@
 <p align="center">
   <p align="center">
   Chiper is ads listing test mobile application has been made for technical test. I has tried as much as possible to respect the SOLID Principles inside.
-   
+  </p>
+</p>
+
   ### What does that mean SOLID Principles?
     SOLID is a mnemonic acronym named by Robert C. Martin used in Software Programming, It represents 5 principles of Object Oriented Programming.
-    **S**ingle Responsibility Principle 
-    **O**pen Closed
-    **L**iskov's Subsititution 
-    **I**nterface Segregation
-    **D**ependency Inversion 
+    - **S**ingle Responsibility Principle 
+    - **O**pen Closed
+    - **L**iskov's Subsititution 
+    - **I**nterface Segregation
+    - **D**ependency Inversion 
     
     These principle solve bad architecture problems like 
-    **Fragility** — A change in one place breaks unexpected parts, its difficult to trace if there is no good test coverage.
+    - **Fragility** — A change in one place breaks unexpected parts, its difficult to trace if there is no good test coverage.
 
-    **Immobility** — A component is difficult to reuse in another project or use in multiple places of same project, because it has to many dependencies.
+    - **Immobility** — A component is difficult to reuse in another project or use in multiple places of same project, because it has to many dependencies.
 
-    **Rigidity** — Takes a lot of effort for change, because it affects several parts. 
+    - **Rigidity** — Takes a lot of effort for change, because it affects several parts. 
 
     These SOLID principle are not strict rules, but just guidelines to improve the quality of the your architecture.
     Lets dig in the principles one by one
-  </p>
-</p>
 
 <p align="center">
 <img src= "https://github.com/skaunited/Chiper/blob/master/Chiper/Demo/ezgif.com-gif-maker.gif" width="400" >
