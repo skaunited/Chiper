@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <p align="center">
-  Chiper is ads listing test mobile application has been made for technical test. I has tried as much as possible to respect the **SOLID Principles** inside.
+  Chiper is ads listing test mobile application has been made for technical test. I has tried as much as possible to respect the <string>SOLID Principles</string> inside.
   </p>
 </p>
 
