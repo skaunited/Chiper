@@ -42,13 +42,13 @@ class ItemTableViewCell: UITableViewCell, ItemTableViewCellProtocol {
     lazy var themedLabel: ThemedUILabelProtocol = ThemedUILabel.shared
     lazy var themedUIImageView: ThemedUIImageViewProtocol = ThemedUIImageView.shared
     
-    private var titleLabel: UILabel?
-    private var priceLabel: UILabel?
-    private var descriptionLabel: UILabel?
-    private var categoryLabel: UILabel?
-    private var urgentLabel: UILabel?
-    private var itemImage: UIImageView?
-    private let imageSize: CGFloat = 32
+    var titleLabel: UILabel?
+    var priceLabel: UILabel?
+    var descriptionLabel: UILabel?
+    var categoryLabel: UILabel?
+    var urgentLabel: UILabel?
+    var itemImage: UIImageView?
+    let imageSize: CGFloat = 32
     
     func configure(with model: ItemTableViewCellModel) {
         // CONTENT
@@ -151,7 +151,7 @@ class ItemTableViewCell: UITableViewCell, ItemTableViewCellProtocol {
 }
 
 // MARK: - PRIVATE FUNCTIONS
-private extension ItemTableViewCell {
+extension ItemTableViewCell {
     func cleanUI() {
         titleLabel = themedLabel.clean(label: titleLabel.orDefault)
         categoryLabel = themedLabel.clean(label: categoryLabel.orDefault)
