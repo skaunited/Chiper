@@ -18,6 +18,7 @@ class HomePresenterMock {
     var numberOfSectionsCallStatus = CallStatus<Never>.none
     var numberOfRowsCallStatus = CallStatus<Int>.none
     var didSelectCallStatus = CallStatus<IndexPath>.none
+    var shouldHighlightRowCallStatus = CallStatus<IndexPath>.none
 }
 
 extension HomePresenterMock: HomePresenterProtocol {
@@ -55,5 +56,10 @@ extension HomePresenterMock: HomePresenterProtocol {
     
     func didSelect(at indexPath: IndexPath) {
         didSelectCallStatus.iterate(with: indexPath)
+    }
+    
+    func shouldHighlightRow(at: IndexPath) -> Bool {
+        shouldHighlightRowCallStatus.iterate(with: at)
+        return false
     }
 }

@@ -62,18 +62,22 @@ extension HomePresenter: HomePresenterProtocol {
     
     func didSelect(at indexPath: IndexPath) {}
     
+    func shouldHighlightRow(at: IndexPath) -> Bool {
+        false
+    }
+    
     func getCategories() -> [Category] {
         listingData?.categories ?? []
     }
     
     func setFilter(by category: Category?) {
         guard let category = category else {
-            self.listingData?.listing = backupListingEntities ?? []
-            self.view?.reloadData()
+            listingData?.listing = backupListingEntities ?? []
+            view?.reloadData()
             return
         }
-        let filtredData = self.listingData?.listing.compactMap { $0.category?.id == category.id ? $0 : nil } ?? []
-        self.listingData?.listing = filtredData
-        self.view?.reloadData()
+        let filtredData = backupListingEntities?.filter { $0.category?.id == category.id } ?? []
+        listingData?.listing = filtredData
+        view?.reloadData()
     }
 }

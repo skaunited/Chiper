@@ -47,5 +47,14 @@ extension HomeViewControllerTest {
         XCTAssertTrue(package.tableView.renderTableViewCallStatus.isCalled)
         XCTAssertTrue(package.navigationBar.renderNavigationBarCallStatus.isCalled)
     }
+    
+    func test_shouldHighlightRow() {
+        // Given
+        let package = createSUT()
+        // When
+        package.sut.tableView(UITableView(), shouldHighlightRowAt: IndexPath(row: 0, section: 0))
+        // Then
+        XCTAssertTrue(package.presenter.shouldHighlightRowCallStatus.isCalled)
+    }
 }
 
