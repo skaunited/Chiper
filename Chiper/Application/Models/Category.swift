@@ -16,6 +16,11 @@ public struct Category: Decodable, Equatable {
         case name
     }
     
+    init(id: Int, name: String) {
+        self.id = id
+        self.name = name
+    }
+    
     public init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
 

@@ -10,6 +10,7 @@ import XCTest
 @testable import Chiper
 
 class HomePresenterMock {
+    var didLoadCallStatus = CallStatus<Never>.none
     var willShowCallStatus = CallStatus<(ItemTableViewCellProtocol, IndexPath)>.none
     var getCategoriesCallStatus = CallStatus<Never>.none
     var setFilterCallStatus = CallStatus<Chiper.Category?>.none
@@ -20,13 +21,17 @@ class HomePresenterMock {
 }
 
 extension HomePresenterMock: HomePresenterProtocol {
+    func didLoad() {
+        didLoadCallStatus.iterate()
+    }
+    
     func willShow(cell: ItemTableViewCellProtocol, indexPath: IndexPath) {
         willShowCallStatus.iterate(with: (cell, indexPath))
     }
     
     func getCategories() -> [Chiper.Category] {
         getCategoriesCallStatus.iterate()
-        return []
+        return StaticMocks.categoryArray
     }
     
     func setFilter(by category: Chiper.Category?) {
@@ -35,7 +40,7 @@ extension HomePresenterMock: HomePresenterProtocol {
     
     func cellIdentifier(forIndexPath indexPath: IndexPath) -> String? {
         cellIdentifierCallStatus.iterate(with: indexPath)
-        return "cellId"
+        return "ItemTableViewCell"
     }
     
     func numberOfSections() -> Int {
@@ -45,7 +50,7 @@ extension HomePresenterMock: HomePresenterProtocol {
     
     func numberOfRows(inSection: Int) -> Int {
         numberOfRowsCallStatus.iterate(with: inSection)
-        return 1
+        return StaticMocks.listingEntity.count
     }
     
     func didSelect(at indexPath: IndexPath) {

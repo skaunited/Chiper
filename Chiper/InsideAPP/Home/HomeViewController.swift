@@ -86,7 +86,7 @@ private extension HomeViewController {
         self.activityIndicator?.startAnimating()
     }
     
-    private func showFilterOptions() {
+    func showFilterOptions() {
         let alert = UIAlertController(title: Constants.filterTitle,
                                       message: nil,
                                       preferredStyle: .actionSheet)
