@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <p align="center">
-  Chiper is ads listing test mobile application has been made for technical test. I has tried as much as possible to respect the SOLID Principles inside.
+  Chiper is ads listing test mobile application has been made for technical test. I has tried as much as possible to respect the **SOLID Principles** inside.
   </p>
 </p>
 
@@ -55,8 +55,7 @@ Lets dig in the principles one by one
 
 Skander BAHRI – [@KingUnited009](https://twitter.com/KingUnited009) – s.bahri@codevelop.fr & skander.bahri@hotmail.com
 
-**Chiper** Distributed without ``LICENSE``, feel free to use it.)
-Do not hesitate to contact me if you have any questions.  
+**Chiper** Distributed without ``LICENSE``, feel free to use it ;) Do not hesitate to contact me if you have any questions.  
 
 [https://github.com/skaunited/](https://github.com/dbader/)
 
